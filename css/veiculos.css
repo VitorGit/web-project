@@ -1,0 +1,68 @@
+@import_url("http://fonts.googleapis.com/css?family=Lato:400,900");
+
+#catalog_area{
+	display:table;
+	border: 1em #3C3024;
+	background: #F2F3F4;
+	width: 80%;
+	height: 90%;
+	clear:left;
+	margin-left:10%;
+	margin-right:10%;
+	overflow: hidden;
+	font-family: "Lato", "Lucidia Grand", sans-serif;
+}
+
+
+#cell {
+	display:inline-block;
+	position: relative;
+	background: #a8aaad;
+    height:5%;
+	max-height: 30px;
+    width:30%;
+	min-width: 200px;
+	padding-bottom: 5%;
+	border:10px solid #CCC;
+    margin:1.66%;
+	left:15%;
+	overflow: hidden;
+}
+
+#cell:hover {
+	background: #808284;
+	cursor: pointer;
+}
+
+#nome{
+	font-size: 1vw;
+	float: left;
+	position: static;
+	padding: 1% 3%;
+	font-size: 1.4vw;
+}
+
+#preco{
+	position: absolute;
+	top: 40%;
+	left: 0px;
+	padding: 1% 3%;
+	font-size: 1.2vw;
+}
+
+#km{
+	position: absolute;
+	bottom: 0%;
+	left: 0px;
+	padding: 1% 3%;
+	font-size: 1vw;
+}
+
+#data{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	padding: 1% 3%;
+	font-size: 0.6em;
+	font-size: 1vw;
+}

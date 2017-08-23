@@ -1,0 +1,31 @@
+.pagination_bar{
+	position: relative;
+	float: right;
+	font-family: "palatino", sans-serif;/* those two will be on parent div*/
+	font-size: 1.3em;
+	margin-bottom: 20px;
+}
+
+.pagination_bar .pagination_link{
+	display: inline-block;
+	border: 2px solid black;
+	border-radius: 5px;
+	padding: 3px;
+    text-align: center;
+    min-width: 20px;
+	border-color: #a8aaad;
+	cursor: pointer;
+}
+
+.pagination_bar .pagination_link:hover{
+	transition: 0.2s;
+	border-color: #d2d4d8;
+}
+
+.pagination_bar .active{
+	background: #a8aaad;
+}
+
+.arrow{
+	/*nada por aqui*/
+}
